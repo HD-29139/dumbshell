@@ -37,4 +37,3 @@ cd dumbshell
 cargo run
 ```
 
-> 🔐 Note: This is a simple prototype and does not include input validation, error messages, or security checks for malicious input.
