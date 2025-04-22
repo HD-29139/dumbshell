@@ -1,8 +1,18 @@
+use std::env;
 use std::io::{self, stdout, Write};
 use std::process::Command;
-fn main(){
+
+fn main() -> std::io::Result<()>{
     loop {
-        print!("/dshell>");
+        let dir = env::current_dir()?;
+        // dir is a PathBuf,
+        // Retrieves the current working directory.
+        // the "?" propagates any error that may occur
+
+        let path = dir.file_name().and_then(|name| name.to_str()).unwrap_or("/");
+        // file_name() returns the last component in the path, if it exists
+
+        print!("~/{} in dshell> ", path);
         stdout().flush().unwrap();
 
         let mut input = String::new();
