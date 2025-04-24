@@ -8,7 +8,7 @@
   <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv1.png" width="1024" alt="HD-29139 - DUMBSHELL">
 </p>
 
-This is a minimalist shell written in **Rust**. It allows you to execute commands interactively, similar to a terminal.
+### This is a minimalist shell written in **Rust**. It allows you to execute commands interactively, similar to a terminal.
 
 - Reads user input line by line
 - Splits the input into command and arguments
