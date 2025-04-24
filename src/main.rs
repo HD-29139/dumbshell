@@ -1,6 +1,10 @@
 use std::env;
 use std::io::{self, stdout, Write};
 use std::process::Command;
+const MAGENTA_ITALIC: &str= "\x1b[4;3;35m";
+const BLUE: &str= "\x1b[34";
+const RESET: &str= "\x1b[0m";
+
 
 fn main() -> std::io::Result<()>{
     loop {
@@ -12,7 +16,7 @@ fn main() -> std::io::Result<()>{
         let path = dir.file_name().and_then(|name| name.to_str()).unwrap_or("/");
         // file_name() returns the last component in the path, if it exists
 
-        print!("~/{} in dshell> ", path);
+        print!("{}{}{} {}mdshell{}> ", MAGENTA_ITALIC, path, RESET, BLUE, RESET);
         stdout().flush().unwrap();
 
         let mut input = String::new();
