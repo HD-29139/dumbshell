@@ -6,3 +6,5 @@ edition = "2024"
 [dependencies]
 chrono = "0.4.40"
 colored = "3.0.0"
+gethostname = "1.0.1"
+whoami = "1.6.0"
