@@ -1,26 +1,13 @@
-use std::env;
+use std::{env, path};
 use std::io::{self, stdout, Write};
 use std::process::Command;
-const MAGENTA_ITALIC: &str = "\x1b[4;3;35m";
-const BLUE: &str = "\x1b[34";
-const RESET: &str = "\x1b[0m";
-const CYAN: &str = "\x1b[36m";
+use colored::Colorize;
+
+
 
 fn main() -> std::io::Result<()>{
     loop {
-        let dir = env::current_dir()?;
-        // dir is a PathBuf,
-        // Retrieves the current working directory.
-        // the "?" propagates any error that may occur
-
-        let path = dir.file_name().and_then(|name| name.to_str()).unwrap_or("/");
-        // file_name() returns the last component in the path, if it exists
-
-        let hour = chrono::Local::now().format("%H:%M").to_string();
-
-        print!("[{}{}{}]|{}{}{}| {}mdshell{}> ", CYAN, hour, RESET, MAGENTA_ITALIC, path, RESET, BLUE, RESET);
-        stdout().flush().unwrap();
-
+       
         let mut input = String::new();
         io::stdin().read_line(&mut input).unwrap();
 
