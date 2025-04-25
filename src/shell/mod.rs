@@ -1,6 +1,5 @@
 pub mod myprompt;
 
-use colored::*;
 use myprompt::gt_prompt;
 use std::env;
 use std::io::{Write, stdout};
