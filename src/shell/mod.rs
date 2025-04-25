@@ -1,4 +1,5 @@
 pub mod myprompt;
+pub mod getgit;
 
 use myprompt::gt_prompt;
 use std::env;
