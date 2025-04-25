@@ -1,10 +1,5 @@
-use std::{env, path};
-use std::io::{self, stdout, Write};
-use std::process::Command;
-use colored::Colorize;
-
-
+mod shell;
 
 fn main() -> std::io::Result<()>{
-    
+    shell::run_shell()
 }
