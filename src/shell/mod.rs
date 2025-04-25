@@ -2,7 +2,9 @@ pub mod myprompt;
 
 use colored::*;
 use myprompt::gt_prompt;
+use std::env;
 use std::io::{Write, stdout};
+use std::path::Path;
 use std::process::Command;
 
 pub fn run_shell() -> std::io::Result<()> {
@@ -18,14 +20,20 @@ pub fn run_shell() -> std::io::Result<()> {
         let command = parts.next().unwrap();
         let args = parts;
 
-        let mut child = match Command::new(command).args(args).spawn() {
-            Ok(child) => child,
-            Err(e) => {
-                println!("aqui: {}", e.to_string().red());
-                continue;
+        match command {
+            "cd" => {
+                let new_dir = args.peekable().peek().map_or("/home/ArchJefferson", |x| *x);
+                let root = Path::new(new_dir);
+                if let Err(e) = env::set_current_dir(&root) {
+                    eprintln!("{}", e);
+                }
             }
-        };
-        child.wait()?;
-    }
 
+            command => {
+                let mut child = Command::new(command).args(args).spawn()?;
+
+                child.wait()?;
+            }
+        }
+    }
 }
