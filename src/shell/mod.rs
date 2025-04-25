@@ -1,20 +1,21 @@
-pub mod _prompt_;
-pub mod commands;
+pub mod myprompt;
+// pub mod commands;
 
-use commands::{color_cmd, handle_};
-use prompt::get_prompt;
+// use commands::{color_cmd, handle_};
+use myprompt::gt_prompt;
 use std::env;
-use std::io::{Write, stdin, stdout};
+use std::io::{stdin, stdout, Error, Write};
 use std::process::Command;
+use colored::*;
 
-fn run_shell() -> std::io::Result<()> {
+pub fn run_shell() -> std::io::Result<()> {
     loop {
-        let prompt = _prompt_();
+        let prompt = gt_prompt()?;
         print!("{}", prompt);
         stdout().flush()?;
 
         let mut input = String::new();
-        io::stdin().read_line(&mut input).unwrap();
+        std::io::stdin().read_line(&mut input).unwrap();
 
         let mut parts = input.trim().split_whitespace();
         let command = match parts.next() {
