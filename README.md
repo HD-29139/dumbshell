@@ -1,4 +1,10 @@
 <div align="center">
+<img src="https://en.bloggif.com/tmp/5e9dce95a2ae45dfd056351859bc5112/text.gif?1745734022">
+<br>
+<img src="https://en.bloggif.com/tmp/02747322da58e6bbd1ae493e2e2f10f8/text.gif?1745734149">
+<br>
+<img src="https://en.bloggif.com/tmp/9ae447dcc45f09cb37f42cf7d0ff93bb/text.gif?1745734334"/>
+  <br>
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/baf52aa6-ff71-412d-9607-db8feb17874b" width="75">&nbsp;
   <br>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
@@ -14,8 +20,27 @@
 - Splits the input into command and arguments
 - Executes commands with arguments using `std::process::Command`
 - Waits for each command to finish before continuing
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" >
+<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=1&pause=4&color=F70000&background=FFFFFF00&center=true&vCenter=true&width=25&height=25&lines=%E2%86%93" alt="Typing SVG" /></p>
+
+<details>
+  <summary><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=15&size=15&duration=1500&pause=3000&color=F74B1A&vCenter=true&width=110&height=12&lines=Le+processus" alt="Typing SVG" /></summary>
+  <div align="center">
+  <p>processus</p>
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/first_prompt.png" width="102">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/tests.png" width="124">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/nice_one.png" width="192">
+  </div>
+  <div align="center">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.png" width="640">
+  </div>
+</details>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 <br><br>
