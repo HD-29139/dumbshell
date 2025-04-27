@@ -27,18 +27,21 @@
 - Splits the input into command and arguments
 - Executes commands with arguments using `std::process::Command`
 - Waits for each command to finish before continuing
-<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=1&pause=4&color=F70000&background=FFFFFF00&center=true&vCenter=true&width=25&height=25&lines=%E2%86%93" alt="Typing SVG" /></p>
+<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=1&pause=4&color=F70000&background=FFFFFF00&center=true&vCenter=true&width=25&height=25&lines=%E2%86%93" alt="Typing SVG" onclick="return false;" /></p>
 
 <details>
-  <summary><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=15&size=15&duration=1500&pause=3000&color=F74B1A&vCenter=true&width=110&height=12&lines=Le+processus" alt="Typing SVG" /></summary>
+  <summary><i>Le processus</i></summary>
   <div align="center">
-  <p>processus</p>
-  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/first_prompt.png" width="102">
-  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/tests.png" width="124">
-  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/nice_one.png" width="192">
+  <img src="https://en.bloggif.com/tmp/a6832549707170d15a87c000de3859b9/text.gif?1745737101">
+  <br>
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/img3.gif" width="102">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/img2.gif" width="124">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/img1.gif" width="192">
   </div>
   <div align="center">
-  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.png" width="640">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/img4.gif" width="640">
+    <br>
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/scanOK.gif" width="640">
   </div>
 </details>
 <br>
