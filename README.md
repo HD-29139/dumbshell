@@ -9,9 +9,6 @@
   <br>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
-<div align="center">
-<img src="https://github.com/fnky/fnky/raw/fnky/img/fan-1.gif" alt="Fan" align="center">
-</div>
 <p align="center">
   <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.GIF" width="1024" alt="HD-29139 - DUMBSHELL">
 </p>
