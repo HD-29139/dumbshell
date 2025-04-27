@@ -1,6 +1,7 @@
 pub mod myprompt;
 pub mod getgit;
 
+use colored::Colorize;
 use myprompt::gt_prompt;
 use std::env;
 use std::io::{Write, stdout};
@@ -15,9 +16,8 @@ pub fn run_shell() -> std::io::Result<()> {
 
         let mut input = String::new();
         std::io::stdin().read_line(&mut input).unwrap();
-
         let mut parts = input.trim().split_whitespace();
-        let command = parts.next().unwrap();
+        let command = parts.next().expect("failed to read");
         let args = parts;
 
         match command {
@@ -25,7 +25,7 @@ pub fn run_shell() -> std::io::Result<()> {
                 let new_dir = args.peekable().peek().map_or("/home/ArchJefferson", |x| *x);
                 let root = Path::new(new_dir);
                 if let Err(e) = env::set_current_dir(&root) {
-                    eprintln!("{}", e);
+                    eprintln!("{}", e.to_string().truecolor(254, 100, 11));
                 }
             },
 
@@ -36,7 +36,7 @@ pub fn run_shell() -> std::io::Result<()> {
 
                 match child {
                     Ok(mut child) => {child.wait()?;},
-                    Err(e) => eprintln!("{}", e), 
+                    Err(e) => eprintln!("{}", e.to_string().truecolor(254, 100, 11)), 
                 }
             }
         }
