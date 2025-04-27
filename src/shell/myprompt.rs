@@ -1,5 +1,6 @@
 use crate::shell;
 use gethostname::gethostname;
+use home::home_dir;
 use shell::getgit::git_branch;
 use colored::*;
 use std::env;
@@ -9,13 +10,12 @@ pub fn gt_prompt() -> std::io::Result<String> {
     let user = whoami::username();
     let host = gethostname().to_string_lossy().to_string();
     let branch = git_branch();
-
+    let ugly = String::from("/home/") + &user;
     let dir = env::current_dir()?;
-
     let path = dir
         .file_name()
         .and_then(|name| name.to_str())
-        .unwrap_or("/home/ArchJefferson");
+        .unwrap_or(&ugly);
 
     let path_colored = format!("{}", path.truecolor(114, 135, 253));
     let prompt = "> ".yellow();
