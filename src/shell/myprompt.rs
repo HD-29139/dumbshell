@@ -1,6 +1,5 @@
 use crate::shell;
 use gethostname::gethostname;
-use home::home_dir;
 use shell::getgit::git_branch;
 use colored::*;
 use std::env;
