@@ -9,12 +9,18 @@
   <br>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
-<br><br>
+<div align="center">
+<img src="https://github.com/fnky/fnky/raw/fnky/img/fan-1.gif" alt="Fan" align="center">
+</div>
 <p align="center">
   <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.GIF" width="1024" alt="HD-29139 - DUMBSHELL">
 </p>
+<img src="https://github.com/HD-29139/dumbshell/blob/main/assets/cooltext.gif">
 
-### This is a minimalist shell written in **Rust**. It allows you to execute commands interactively, similar to a terminal.
+
+
+### <img src="https://en.bloggif.com/tmp/585c7ab737a16300f087c4d2d23a3c26/text.gif?1745734940"/>
+
 
 - Reads user input line by line
 - Splits the input into command and arguments
@@ -35,11 +41,6 @@
   </div>
 </details>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
@@ -51,5 +52,10 @@
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/ie_logo.gif" alt="Microsoft Internet Explorer" />
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/noframes.gif" alt="Microsoft Internet Explorer" />
-
 </div>
+<br>
+<footer>
+  <div align="center">
+  <img src="https://en.bloggif.com/tmp/da8dfc8d5f9cf94b7dc6e735168b3358/text.gif?1745736046">
+  </div>
+</footer>
