@@ -5,7 +5,7 @@
 </div>
 <br><br>
 <p align="center">
-  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv1.png" width="1024" alt="HD-29139 - DUMBSHELL">
+  <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.GIF" width="1024" alt="HD-29139 - DUMBSHELL">
 </p>
 
 ### This is a minimalist shell written in **Rust**. It allows you to execute commands interactively, similar to a terminal.
