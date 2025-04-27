@@ -15,8 +15,9 @@
 <p align="center">
   <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/dshellv2.GIF" width="1024" alt="HD-29139 - DUMBSHELL">
 </p>
+<p align="center">
 <img src="https://github.com/HD-29139/dumbshell/blob/main/assets/cooltext.gif">
-
+</p>
 
 
 ### <img src="https://en.bloggif.com/tmp/585c7ab737a16300f087c4d2d23a3c26/text.gif?1745734940"/>
