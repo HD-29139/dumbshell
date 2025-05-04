@@ -1,12 +1,5 @@
 <div align="center">
 <img src="https://en.bloggif.com/tmp/5e9dce95a2ae45dfd056351859bc5112/text.gif?1745734022">
-<br>
-<img src="https://en.bloggif.com/tmp/02747322da58e6bbd1ae493e2e2f10f8/text.gif?1745734149">
-<br>
-<img src="https://en.bloggif.com/tmp/9ae447dcc45f09cb37f42cf7d0ff93bb/text.gif?1745734334"/>
-  <br>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/baf52aa6-ff71-412d-9607-db8feb17874b" width="75">&nbsp;
-  <br>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 <p align="center">
